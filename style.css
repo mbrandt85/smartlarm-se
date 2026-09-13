@@ -1,6 +1,6 @@
 :root {
-    --primary: #0a2540;
-    --primary-light: #204060;
+    --primary: #e94d1b;
+    --primary-light: #ff7c50;
     --accent: #0070f3;
     --accent-hover: #005bb5;
     --text-main: #333;
@@ -56,7 +56,7 @@ p {
 /* Hero Section */
 .hero {
     position: relative;
-    background: url('assets/img/hero-bg.jpg') no-repeat center center/cover;
+    background: url('assets/img/hero-bg-new.jpg') no-repeat center center/cover;
     color: var(--white);
     padding: 120px 0;
     text-align: center;
@@ -68,7 +68,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(10, 37, 64, 0.9) 0%, rgba(0, 112, 243, 0.4) 100%); /* richer gradient overlay */
+    background: linear-gradient(135deg, rgba(233, 77, 27, 0.9) 0%, rgba(255, 124, 80, 0.4) 100%);
 }
 
 .hero-content {
@@ -86,7 +86,7 @@ p {
 }
 
 .hero .highlight {
-    color: #4da3ff; /* Lighter blue for dark background */
+    color: #ffe066; /* Better contrast for orange background */
 }
 
 .subtitle {
